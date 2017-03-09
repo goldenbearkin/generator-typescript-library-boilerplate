@@ -24,6 +24,7 @@ describe('generator-typescript-library-boilerplate:app', function () {
       'tools/cleanup.ts',
       '.gitignore',
       '.travis.yml',
+      'LICENSE',
       'package.json',
       'README.md',
       'rollup.config.js',
