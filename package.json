@@ -1,6 +1,6 @@
 {
   "name": "generator-typescript-library-boilerplate",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "description": "Yeoman generator for a simple tree-shakable typeScript library boilerplate. ",
   "homepage": "",
   "author": {
