@@ -20,7 +20,7 @@
   "keywords": [<% for(i=0; i<keywords.length; i++) { %>
     "<%= keywords[i].trim() %>"<% if (i !== keywords.length - 1) { %>,<% } %> <% } %>
   ],
-  "author": "Jason Hui <huihangkin@gmail.com>",
+  "author": "<%- author %>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/<%= username %>/<%= projectname %>/issues"
