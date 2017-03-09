@@ -1,6 +1,6 @@
 export default {
   format: 'umd',
-  moduleName: 'index',
+  moduleName: '<%= projectname %>',
   external: [
     // put some third party libraries here
   ],
