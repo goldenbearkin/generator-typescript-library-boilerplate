@@ -15,7 +15,7 @@ before_script:
   - yarn global add coveralls nyc
 
 script:
-  - yarn test && yarn lint
+  - yarn test
 
 after_success:
   - cat ./coverage/lcov.info | coveralls
